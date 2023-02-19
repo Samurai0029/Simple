@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../music-fill.svg" type="image/x-icon">
+
+<!-- Style file in html file. I'm tired.... -->
+
+    <link rel="stylesheet" href="../main.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;padding: 0;color: #ffffef;   
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background: url(./3d\ printer\ background.jpg);
+            /* background-attachment: fixed; */
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            text-align: center;
+            display: grid;
+            place-items: center;
+            font-family: 'itim';
+            font-size: 20px;
+        }
+        .container::before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            bottom: 0;top: 0;right: 0;left: 0;
+            background: linear-gradient(45deg , rgba(12, 12, 12, 0.767), rgba(0, 0, 0, 0.801));
+            z-index: -1;
+        }
+    </style>
+<!-- style part end... -->
+    <title>3D Printer [3D printerlar]</title>
+</head>
+<body>
+    <div class="container">
+        <p>Yaqin kunlarda sahifa tayyor bo`ladi
+            <br>
+            3D printer haqida ma`lumotlar yig`ilmoqda...
+        </p>
+        <!-- <p>3D printer haqida ma`lumotlar yig`ilmoqda</p> -->
+    </div>
+</body>
+</html>

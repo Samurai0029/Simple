@@ -1,0 +1,34 @@
+@import url(../fonts/remixicon/remixicon.css);
+
+@font-face {
+    font-family: 'poppinsMedium';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'poppinsBItalic';
+    src: url(../fonts/Poppins-BlackItalic.ttf);
+}
+@font-face {
+    font-family: 'poppinsRegular';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'itim';
+    src: url(../fonts/Itim-Regular.ttf);
+}
+@font-face {
+    font-family: 'Consolas';
+    src: url(../fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'Zvin';
+    src: url(../fonts/ZvinSerif-Medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body *{
+    z-index: 10;
+}
